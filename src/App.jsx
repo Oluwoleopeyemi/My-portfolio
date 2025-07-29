@@ -1,6 +1,6 @@
 
 import 'animate.css';
-import heroImage from './Oluwole.jpg';
+import heroImage from './Oluwole.JPG';
 import { motion } from "framer-motion";
 import ScrollToTopButton from './components/ScrollToTopButton';
 import Navbar from './components/Navbar';
