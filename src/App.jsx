@@ -18,7 +18,8 @@ export default function App() {
       {/* Hero Section */}
    
 
-   <section className="min-h-screen pt-28 px-4 bg-gradient-to-br from-orange-50 via-white to-orange-100 flex items-center justify-center">
+   <section id="hero" className="min-h-screen pt-28 px-4 bg-gradient-to-br from-orange-50 via-white to-orange-100 flex items-center justify-center">
+
   <div className="max-w-4xl mx-auto text-center">
 
     {/* NAVBAR */}
@@ -122,7 +123,7 @@ export default function App() {
           Learn how to implement and track a text classification model in Comet.
         </p>
         <a
-          href="https://blog.comet.com/integrating-a-text-classification-model-in-comet"
+          href="https://heartbeat.comet.ml/integrating-a-text-classification-model-in-comet-3ca6ab2e5088"
           target="_blank"
           rel="noopener noreferrer"
           className="text-orange-600 font-medium hover:underline"
@@ -146,7 +147,7 @@ export default function App() {
           Gain insight into how Language Models and LLMOps work in production.
         </p>
         <a
-          href="https://towardsdatascience.com/scaling-language-models-with-llmops-in-real-world-applications-6291d225c6a3"
+          href="https://heartbeat.comet.ml/scaling-language-models-with-llmops-in-real-world-applications-a38d684ccd3d"
           target="_blank"
           rel="noopener noreferrer"
           className="text-orange-600 font-medium hover:underline"
@@ -172,7 +173,7 @@ export default function App() {
           Want to know how Regex work? Check it out here!
         </p>
         <a
-          href="https://blog.openreplay.com/localstorage-vs-sessionstorage--a-comprehensive-comparison/"
+          href="https://blog.openreplay.com/five-practical-use-cases-for-regular-expressions/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-orange-600 font-medium hover:underline"
@@ -196,7 +197,7 @@ export default function App() {
           Need a seamless substitute for Node? Try Bun 😀 
         </p>
         <a
-          href="https://blog.comet.com/integrating-a-text-classification-model-in-comet"
+          href="https://blog.openreplay.com/how-to--migrating-from-node-to-bun/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-orange-600 font-medium hover:underline"
@@ -220,7 +221,7 @@ export default function App() {
           Gain insight into how to implement CSS Blurry Shimmer Effect
         </p>
         <a
-          href="https://towardsdatascience.com/scaling-language-models-with-llmops-in-real-world-applications-6291d225c6a3"
+          href="https://blog.openreplay.com/css-blurry-shimmer-effect/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-orange-600 font-medium hover:underline"
@@ -233,7 +234,7 @@ export default function App() {
   </div>
   
 </section>
-<footer id="contact" className="bg-gradient-to-r from-blue-600 to-orange-400 text-white py-12 px-4 text-center mt-20">
+<footer id="footer" className="bg-gradient-to-r from-blue-600 to-orange-400 text-white py-12 px-4 text-center mt-20">
   <div className="max-w-4xl mx-auto">
     <h3 className="text-3xl font-semibold mb-4">Let's Connect</h3>
     <p className="text-lg mb-6">
@@ -244,25 +245,25 @@ export default function App() {
 
     <div className="flex justify-center space-x-8 mt-6">
       <a
-        href="https://twitter.com/OluwoleImpact"
+        href="https://x.com/Emmanuel24Gov?t=PIszVKPaVVBwNq1ikVS9fg&s=09"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" className="w-6 h-6 hover:scale-110 transition-transform" />
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" className="w-6 h-6 hover:scale-110 transition-transform" />
       </a>
       <a
-        href="https://www.linkedin.com/in/oluwoleemmanuel/"
+        href="https://www.linkedin.com/in/oluwole-opeyemi-107984229/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="w-6 h-6 hover:scale-110 transition-transform" />
       </a>
       <a
-        href="https://www.instagram.com/oluwoleimpact/"
+        href="https://wa.me/2348164173542"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" className="w-6 h-6 hover:scale-110 transition-transform" />
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" className="w-6 h-6 hover:scale-110 transition-transform" />
       </a>
     </div>
 
@@ -271,6 +272,7 @@ export default function App() {
     </p>
   </div>
 </footer>
+
 
     <ScrollToTopButton />
     </>
